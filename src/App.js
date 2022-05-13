@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import {BrowserRouter as Router ,  Routes , Route, Link} from 'react-router-dom'
+import {HashRouter as Router ,  Routes , Route, Link} from 'react-router-dom'
 import About from './component/About'
 import Demo1 from './demo1/Demo1'
 import Home from './component/Home'
@@ -44,7 +44,7 @@ const App = () => {
       :(    <Router>
         <Routes>
        
-           <Route path='react/' element={<Mainhome/>} />
+           <Route path='/' element={<Mainhome/>} />
            <Route path='/demo1' element={<Demo1/>} />
            <Route path='/demo2/*' element={<Demo2/>} />
            <Route path='/demo3/*' element={<Demo3/>} />
