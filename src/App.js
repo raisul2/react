@@ -44,7 +44,7 @@ const App = () => {
       :(    <Router>
         <Routes>
        
-           <Route path='/' element={<Mainhome/>} />
+           <Route path='react/' element={<Mainhome/>} />
            <Route path='/demo1' element={<Demo1/>} />
            <Route path='/demo2/*' element={<Demo2/>} />
            <Route path='/demo3/*' element={<Demo3/>} />
